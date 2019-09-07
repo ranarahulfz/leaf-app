@@ -1,0 +1,47 @@
+/*--NAVBAR--*/
+.navbar {
+    display: flex;
+    height: 107px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/*LoGO CONTAINER*/
+.logo-container {
+    padding: 0 1rem;
+}
+
+/*--LOGO ICON--*/
+.logo-icon {
+    width: 50px;
+}
+
+/*--UL LI--*/
+ul {
+    display: flex;
+    margin: 0 3rem;
+}
+
+li {
+    margin-left: 5rem;
+    list-style: none;
+}
+
+/*--MENU ICON--*/
+.icon {
+    width: 33px;
+}
+
+.menu-icon {
+    width: 30px;
+}
+
+
+/* ALL MEDIA QUERIES  */
+
+@media (max-width: 1025px) {
+}
+
+@media (max-width: 840px) {
+}
