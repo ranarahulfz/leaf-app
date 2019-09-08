@@ -2,3 +2,248 @@
 .home-container {
     padding: 1rem;
 }
+
+.artboard-01 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    background: #666;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.075);
+}
+
+.tree-background {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    opacity: 0.8;
+}
+
+.light-text {
+    color: rgba(256,256,256,0.8);
+}
+
+.dark-text {
+    color: rgba(0,0,0,0.7);
+}
+
+.center {
+    text-align: center;
+}
+
+.title{
+    margin: 2rem;
+    letter-spacing: 0.035rem;
+    font-family: 'Apercu Bold';
+    font-size: 3.161rem;
+}
+
+.subtitle{
+    margin: 2rem;
+    letter-spacing: 0.035rem;
+    line-height: 2.4rem;
+    font-family: 'Apercu Regular';
+    font-size: 1.8rem;
+}
+
+.space-between {
+    display: block;
+    background: url("../../assets/images/cactus.svg");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    margin: 4rem 0;
+
+}
+
+.artboard-02 {
+    display: block;
+    position:relative;
+    background: url("../../assets/images/leaves.svg");
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.head {
+    display: block;
+    width:100%;
+    margin: 2rem 0;
+}
+
+.rose-card {
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    background: #ffffff;
+    border-radius: 0.316rem;
+    padding: 2.778rem;
+    max-width: 280px;
+    box-shadow: 0 18px 48px rgba(0,0,0,0.075);
+    margin: 1rem 1rem;
+}
+
+.card-img {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    padding: 1.333rem;
+    border-radius: 100%;
+    background: #ffffff;
+    box-shadow: 0 18px 48px rgba(0,0,0,0.075);
+}
+
+.top-text {
+    font-family: 'Apercu regular';
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    font-size: 0.749rem;
+    color: #5890FF;
+}
+
+.card-title {
+    font-family: 'Apercu regular';
+    font-size: 1.778rem;
+    color: #4e5665
+}
+
+.card-subtitle {
+    font-family: 'Apercu regular';
+    font-size: 1rem;
+    color: #9fa4ae;
+    font-weight: 400;
+}
+
+.artboard-03 {
+    display: block;
+    position:relative;
+    background: url("../../assets/images/maple-leaf.svg");
+    background-size: 170%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-03 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 575px;
+    padding-left: 3rem;
+}
+
+.section-04 {
+    display: block;
+    width: 100%;
+}
+
+.container-04 {
+    display: flex;
+    flex-direction: column;
+}
+
+.subcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.artboard-04 {
+    width: 280px;
+    margin:1rem;
+}
+
+.section-05-quote {
+    margin: 2.5rem 0.7rem;
+    letter-spacing: 0.035rem;
+    font-family: 'Apercu Italic';
+    font-size: 2.161rem;
+    color: rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+.section-05-author {
+    margin: 2.5rem 0.7rem;
+    letter-spacing: 0.035rem;
+    font-family: 'Apercu Regular';
+    font-size: 1.661rem;
+    color: rgba(0,0,0,0.8);
+    text-align: center;
+}
+
+.artboard-03 {
+    display: block;
+    position:relative;
+    background: url("../../assets/images/maple-leaf.svg");
+    background-size: 170%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.developer-container {
+    padding: 2rem 0.7rem;
+}
+
+.developer-pic {
+    width: 300px;
+    border-radius: 50%;
+    margin-right: 6rem;
+    box-shadow: 0 18px 48px rgba(0,0,0,0.175);
+}
+
+.developer-name {
+    margin: 0 0.7rem;
+    letter-spacing: 0.035rem;
+    font-family: 'Apercu Italic';
+    font-size: 2.161rem;
+    color: rgba(0,0,0,0.8);
+}
+
+.developer-designation {
+    margin: 0 0.7rem;
+    letter-spacing: 0.035rem;
+    font-family: 'Apercu Regular';
+    font-size: 1.61rem;
+    color: rgba(0,0,0,0.6);
+}
+
+.greenleaf-r-border {
+    display: block;
+    background: url("../../assets/images/green-leaf.svg");
+    background-size: 12px;
+    background-repeat: repeat;
+    height: 12px;
+    margin: 4rem 2rem 0;
+}
+
+.cactus {
+    display: block;
+    background: url("../../assets/images/cactus.svg");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60px;
+    margin: 1rem 0;
+}
+
+.greenleaf-l-border {
+    display: block;
+    background: url("../../assets/images/green-leaf.svg");
+    background-size: 12px;
+    background-repeat: repeat;
+    height: 12px;
+    margin: 0 2rem 4rem;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
