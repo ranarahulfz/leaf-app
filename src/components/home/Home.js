@@ -22,7 +22,6 @@ function Home () {
                     </div>
             </section>
             <section>
-                <div className="greenleaf-r-border"/>
                 <div className="cactus"/>
                 <div className="greenleaf-l-border"/>
             </section>  
@@ -61,7 +60,6 @@ function Home () {
             <section>
                 <div className="greenleaf-r-border"/>
                 <div className="cactus"/>
-                <div className="greenleaf-l-border"/>
             </section>  
             <section className="artboard-03">
                 <div className="container-03">
@@ -72,7 +70,6 @@ function Home () {
                 </div>
             </section>
             <section>
-                <div className="greenleaf-r-border"/>
                 <div className="cactus"/>
                 <div className="greenleaf-l-border"/>
             </section>  
@@ -110,7 +107,6 @@ function Home () {
             <section>
                 <div className="greenleaf-r-border"/>
                 <div className="cactus"/>
-                <div className="greenleaf-l-border"/>
             </section>  
             <section className="section-05">
                 <div>
@@ -124,7 +120,6 @@ function Home () {
                 </div>
             </section>
             <section>
-                <div className="greenleaf-r-border"/>
                 <div className="cactus"/>
                 <div className="greenleaf-l-border"/>
             </section>  
@@ -145,7 +140,6 @@ function Home () {
             <section>
                 <div className="greenleaf-r-border"/>
                 <div className="cactus"/>
-                <div className="greenleaf-l-border"/>
             </section>        
         </div>
     );
