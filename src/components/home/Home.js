@@ -1,14 +1,11 @@
 import React from 'react'
 import './Home.css'
-import Tree from '../../assets/images/tree.svg'
 import Flower from '../../assets/images/flower.svg'
 import Rose from '../../assets/images/flower_images/rose.svg'
 import Sakura from '../../assets/images/flower_images/sakura.svg'
 import FlowerBouquet from '../../assets/images/flower_images/flower-bouquet.svg'
 import Herbs from '../../assets/images/flower_images/herbs.svg'
-import MapleLeaf from '../../assets/images/maple-leaf.svg'
 import DeveloperPic from '../../assets/images/developer/varun-mee.jpg'
-import GreenLeaf from '../../assets/images/green-leaf.svg'
 
 function Home () {
     return (
@@ -16,8 +13,8 @@ function Home () {
             <section className="artboard-01">
                     <img className="tree-background" src={Flower} alt="artboard"></img>
                     <div className="">
-                        <h1 className="title center light-text">#HappyHealthyFlowers</h1>
-                        <h3 className="subtitle center light-text">Happiness radiates like the fragrance from a flower and draws 
+                        <h1 className="title center light-text large-title">#HappyHealthyFlowers</h1>
+                        <h3 className="subtitle center light-text large-subtitle">Happiness radiates like the fragrance from a flower and draws 
                         all good things towards you.</h3>
                     </div>
             </section>
@@ -28,12 +25,12 @@ function Home () {
             <section className="artboard-02">
                 <div className="container">
                 <div className="head">
-                    <h1 className="title dark-text">The Earth Laughs In Flower</h1>
-                    <h3 className="subtitle dark-text">Some of myriad benefits that you can expect from the simple act of adding flowers to your home.</h3>
+                    <h1 className="title dark-text large-title">The Earth Laughs In Flower</h1>
+                    <h3 className="subtitle light-dark-text">Some of myriad benefits that you can expect from the simple act of adding flowers to your home.</h3>
                 </div>
                 <div className="rose-card">
                 <h4 className="top-text">Benefit 1</h4>
-                        <div className="card-img">
+                        <div className="card-image">
                             <img src={Rose}/>
                         </div>
                         <h2 className="card-title">Reduce Stress</h2>
@@ -41,7 +38,7 @@ function Home () {
                 </div>
                 <div className="rose-card">
                 <h4 className="top-text">Benefit 2</h4>
-                        <div className="card-img">
+                        <div className="card-image">
                         <img src={Rose}/>
                         </div>
                         <h2 className="card-title">Boost Memory</h2>
@@ -49,7 +46,7 @@ function Home () {
                 </div>
                 <div className="rose-card">
                 <h4 className="top-text">Benefit 3</h4>
-                        <div className="card-img">
+                        <div className="card-image">
                         <img src={Rose}/>
                         </div>
                         <h2 className="card-title">Helps in Sleep</h2>
@@ -64,8 +61,8 @@ function Home () {
             <section className="artboard-03">
                 <div className="container-03">
                     <div>
-                        <h1 className="title light-text">Edible flowers</h1>
-                        <h2 className="subtitle light-text">Not all flowers are safe to eat, but those that are can offer a unique burst of flavor and color to many dishes, including salads, sauces, beverages and entrées. Some of them may even offer health benefits.</h2>
+                        <h1 className="title light-text large-title">Edible flowers</h1>
+                        <h2 className="subtitle light-text large-subtitle">Not all flowers are safe to eat, but those that are can offer a unique burst of flavor and color to many dishes, including salads, sauces, beverages and entrées. Some of them may even offer health benefits.</h2>
                     </div>
                 </div>
             </section>
@@ -80,14 +77,14 @@ function Home () {
                             <img className="artboard-04" src={Sakura}/>
                         </div>    
                         <div>
-                            <h1 className="title dark-text">Fragrant Flowers</h1>
-                            <h2 className="subtitle dark-text">Classic rose, calming lavender, intoxicating gardenia and delicate peony, the florist is a haven of natural perfumes.</h2>
+                            <h1 className="title dark-text medium-title">Fragrant Flowers</h1>
+                            <h2 className="subtitle light-dark-text medium-subtitle">Classic rose, calming lavender, intoxicating gardenia and delicate peony, the florist is a haven of natural perfumes.</h2>
                         </div>
                     </div>
                     <div className="subcontainer">
                         <div>
-                            <h1 className="title dark-text">Decoration Flowers</h1>
-                            <h2 className="subtitle dark-text">People plant them in gardens or arrange them in fresh flower bouquets to enjoy the beauty and fragrance of living blooms.</h2>
+                            <h1 className="title dark-text medium-title">Decoration Flowers</h1>
+                            <h2 className="subtitle light-dark-text medium-subtitle">People plant them in gardens or arrange them in fresh flower bouquets to enjoy the beauty and fragrance of living blooms.</h2>
                         </div>
                         <div>
                             <img className="artboard-04" src={FlowerBouquet}/>
@@ -98,8 +95,8 @@ function Home () {
                             <img className="artboard-04" src={Herbs}/>
                         </div>    
                         <div>
-                            <h1 className="title dark-text">Medicine Flowers</h1>
-                            <h2 className="subtitle dark-text">Many flowers and other plant parts have purported medicinal properties, which have been used since ancient times.</h2>
+                            <h1 className="title dark-text medium-title">Medicine Flowers</h1>
+                            <h2 className="subtitle light-dark-text medium-subtitle">Many flowers and other plant parts have purported medicinal properties, which have been used since ancient times.</h2>
                         </div>
                     </div>
                 </div>
@@ -110,13 +107,13 @@ function Home () {
             </section>  
             <section className="section-05">
                 <div>
-                    <h2 class="section-05-quote">
+                    <h2 class="section-05-quote medium-title">
                         When you take a flower in your hand and really look at it, 
                         it's your world for the moment. I want to give that world
                         to someone else. Most people in the city around so, they 
                         have no time to look at a flower. I want them to see it whether they want or not.
                     </h2>
-                    <h3 class="section-05-author"> - Georgia O'Keeffe</h3>
+                    <h3 class="section-05-author medium-subtitle"> - Georgia O'Keeffe</h3>
                 </div>
             </section>
             <section>
@@ -125,15 +122,15 @@ function Home () {
             </section>  
             <section className="section-06">
                 <div className="section-06-head">
-                    <h1 className="title center dark-text">Developer</h1>
+                    <h1 className="title center dark-text large-title">Developer</h1>
                 </div>
                 <div className="subcontainer">
                     <div className="developer-container">
-                        <img className="developer-pic" src={DeveloperPic}/>
+                        <img className="developer-image" src={DeveloperPic}/>
                     </div>
                     <div className="developer-details">
                         <h1 class="developer-name">Varun Rana</h1>
-                        <h2 class="developer-designation">CEO, 20kiwi</h2>
+                        <h2 class="developer-designation">developer</h2>
                     </div>
                 </div>    
             </section>

@@ -1,0 +1,29 @@
+.flowers-artboard-01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.pot {
+    width: 150px;
+}
+
+.fruit-vine {
+    display: block;
+    background: url("../../assets/images/flower_images/fruit.svg");
+    background-size: 12px;
+    background-repeat: repeat-x;
+    height: 15px;
+    margin: 4rem 2rem 0;
+}
+
+.flower-pot {
+    display: block;
+    background: url("../../assets/images/flower_images/flower-pot.svg");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60px;
+    margin: 1rem 0;
+}

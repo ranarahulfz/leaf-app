@@ -4,13 +4,12 @@
     height: 107px;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
-    backgroun: #fff;
+    background: #fff;
 }
 
 /*LoGO CONTAINER*/
 .logo-container {
-    padding: 0 1rem;
+    padding: 0 1.2rem;
 }
 
 /*--LOGO ICON--*/
@@ -18,15 +17,21 @@
     width: 50px;
 }
 
+.menu-container{
+}
+
 /*--UL LI--*/
 ul {
     display: flex;
-    margin: 0 3rem;
 }
 
 li {
-    margin-left: 5rem;
+    margin-right: 2rem;
     list-style: none;
+}
+
+li:last-child {
+    margin-left: 0;
 }
 
 /*--MENU ICON--*/
@@ -34,14 +39,108 @@ li {
     width: 33px;
 }
 
-.menu-icon {
-    width: 30px;
+.home-icon {
+    display: block;
+    content: url("../../assets/images/leaf-home-before.svg");
+    width: 35px;
 }
 
+.home-icon:hover {
+    display: block;
+    content: url("../../assets/images/leaf-home-after.svg");
+    width: 35px;
+}
+
+.flower-icon {
+    display: block;
+    content: url("../../assets/images/flower-before.svg");
+    width: 35px;
+}
+
+.flower-icon:hover {
+    display: block;
+    content: url("../../assets/images/flower-after.svg");
+    width: 35px;
+}
+
+.user-icon {
+    display: block;
+    content: url("../../assets/images/panda-before.svg");
+    width: 35px;
+}
+
+.user-icon:hover {
+    display: block;
+    content: url("../../assets/images/panda-after.svg");
+    width: 35px;
+}
 
 /* ALL MEDIA QUERIES  */
 
-@media (max-width: 1025px) {
+/* # Mobile */
+@media (max-width: 600px) {
+    .navbar {
+        display: flex;
+        height: 87px;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        background: #fff;
+    }
+
+    .logo-container {
+        padding: 0 0.99rem;
+    }
+
+    .logo-icon {
+        width: 40px;
+    }
+
+    ul {
+        display: flex;
+    }
+    
+    li {
+        margin-right: 2rem;
+        list-style: none;
+    }
+
+    .home-icon {
+        display: block;
+        content: url("../../assets/images/leaf-home-before.svg");
+        width: 30px;
+    }
+    
+    .home-icon:hover {
+        display: block;
+        content: url("../../assets/images/leaf-home-after.svg");
+        width: 30px;
+    }
+    
+    .flower-icon {
+        display: block;
+        content: url("../../assets/images/flower-before.svg");
+        width: 30px;
+    }
+    
+    .flower-icon:hover {
+        display: block;
+        content: url("../../assets/images/flower-after.svg");
+        width: 30px;
+    }
+    
+    .user-icon {
+        display: block;
+        content: url("../../assets/images/panda-before.svg");
+        width: 30px;
+    }
+    
+    .user-icon:hover {
+        display: block;
+        content: url("../../assets/images/panda-after.svg");
+        width: 30px;
+    }
+
 }
 
 @media (max-width: 840px) {

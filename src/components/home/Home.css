@@ -21,6 +21,9 @@
     opacity: 0.8;
 }
 
+/* TEXT ATTRIBUTES  STARTS*/
+
+/*-- TEXT COLOR ATTRIBUTES --*/
 .light-text {
     color: rgba(256,256,256,0.8);
 }
@@ -29,15 +32,47 @@
     color: rgba(0,0,0,0.7);
 }
 
+.light-dark-text {
+    color: rgba(0,0,0,0.6);
+}
+
+/*-- TEXT ALIGN-CENTER ATTRIBUTES --*/
 .center {
     text-align: center;
 }
+
+/*-- TEXT SIZE ATTRIBUTES --*/
+.large-title {
+    font-size: 3.161rem;
+}
+
+.medium-title {
+    font-size: 2.861rem; 
+}
+
+.small-title {
+    font-size: 1.461rem;
+}
+
+.large-subtitle {
+    font-size: 1.8rem;
+}
+
+.medium-subtitle {
+    font-size: 1.52rem; 
+}
+
+.small-subtitle {
+    font-size: 1.1rem;
+}
+
+
+/* TEXT ATTRIBUTES  END*/
 
 .title{
     margin: 2rem;
     letter-spacing: 0.035rem;
     font-family: 'Apercu Bold';
-    font-size: 3.161rem;
 }
 
 .subtitle{
@@ -45,7 +80,6 @@
     letter-spacing: 0.035rem;
     line-height: 2.4rem;
     font-family: 'Apercu Regular';
-    font-size: 1.8rem;
 }
 
 .space-between {
@@ -92,7 +126,7 @@
     margin: 1rem 1rem;
 }
 
-.card-img {
+.card-image {
     display: block;
     margin: 0 auto;
     width: 40px;
@@ -127,8 +161,8 @@
 .artboard-03 {
     display: block;
     position:relative;
-    background: url("../../assets/images/maple-leaf.svg");
-    background-size: 170%;
+    background: url("../../assets/images/tree.svg");
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -160,7 +194,7 @@
 }
 
 .artboard-04 {
-    width: 280px;
+    width: 180px;
     margin:1rem;
 }
 
@@ -168,7 +202,7 @@
     margin: 2.5rem 0.7rem;
     letter-spacing: 0.035rem;
     font-family: 'Apercu Italic';
-    font-size: 2.161rem;
+    font-size: 2.061rem;
     color: rgba(0,0,0,0.4);
     text-align: center;
 }
@@ -177,7 +211,7 @@
     margin: 2.5rem 0.7rem;
     letter-spacing: 0.035rem;
     font-family: 'Apercu Regular';
-    font-size: 1.661rem;
+    font-size: 1.561rem;
     color: rgba(0,0,0,0.8);
     text-align: center;
 }
@@ -185,17 +219,24 @@
 .artboard-03 {
     display: block;
     position:relative;
-    background: url("../../assets/images/maple-leaf.svg");
-    background-size: 170%;
+    background: url("../../assets/images/tree.svg");
+    background-size: 160%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.developer-container {
-    padding: 2rem 0.7rem;
+.section-06 {
+    background: url("../../assets/images/green-leaf.svg") no-repeat;
+    background-size: 740px;
+    background-position-y: 85px;
 }
 
-.developer-pic {
+.developer-container {
+    padding: 2rem 0.7rem;
+
+}
+
+.developer-image {
     width: 300px;
     border-radius: 50%;
     margin-right: 6rem;
@@ -246,4 +287,95 @@
     margin: 0 2rem 4rem;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+
+/* ALL MEDIA QUERIES  */
+
+/* # Mobile */
+@media (max-width: 600px) {
+
+    .title{
+        margin: 2rem;
+        letter-spacing: 0.035rem;
+        font-family: 'Apercu Bold';
+        font-weight: 800;
+        font-size: 1.461rem;
+    }
+    
+    .subtitle{
+        margin: 2rem;
+        letter-spacing: 0.035rem;
+        line-height: 2.4rem;
+        font-family: 'Apercu Regular';
+        font-size: 1.1rem;
+    }
+
+    .tree-background {
+        position: relative;
+        width: 100%;
+        max-width: 230px;
+        opacity: 0.8;
+    }
+    
+    .cactus {
+        display: block;
+        background: url("../../assets/images/cactus.svg");
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 60px;
+        margin: 0.6rem 0;
+    }
+
+    .artboard-04 {
+        width: 100px;
+        margin:1rem;
+    }
+
+    .section-05-quote {
+        margin: 2.5rem 0.7rem;
+        letter-spacing: 0.035rem;
+        font-family: 'Apercu Italic';
+        font-size: 1.161rem;
+        color: rgba(0,0,0,0.4);
+        text-align: center;
+    }
+
+    .section-05-author {
+        margin: 2.5rem 0.7rem;
+        letter-spacing: 0.035rem;
+        font-family: 'Apercu Regular';
+        font-size: 1rem;
+        color: rgba(0,0,0,0.8);
+        text-align: center;
+    }
+
+    .section-06 {
+        background-repeat: no-repeat;
+        background-size: 340px;
+    }
+
+    .developer-image {
+        width: 120px;
+        border-radius: 50%;
+        margin-right: 1rem;
+        box-shadow: 0 18px 48px rgba(0,0,0,0.175);
+    }
+    
+    .developer-name {
+        margin: 0.2rem 0.7rem;
+        letter-spacing: 0.035rem;
+        font-family: 'Apercu Italic';
+        font-size: 1.161rem;
+        color: rgba(0,0,0,0.8);
+    }
+    
+    .developer-designation {
+        margin: 0.2rem 0.8rem;
+        letter-spacing: 0.035rem;
+        font-family: 'Apercu Regular';
+        font-size: 0.91rem;
+        color: rgba(0,0,0,0.6);
+    }
+
 }
